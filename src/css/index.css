@@ -1,0 +1,54 @@
+body {
+	background-color: #56ffa947;
+	font-family: "Comic Sans MS","cursive";
+}
+#ngo {
+
+	scroll-behavior: smooth;
+}
+nav.navbar.navbar-inverse {
+	background: #ffffffa8;
+}
+
+.navbar-header img {
+	height : 48px;
+}
+
+.navbar .navbar-collapse .nav li a {
+	color: #000000;
+	text-shadow: none;
+}
+
+.navbar .navbar-collapse .nav li a:hover {
+	color: #ffffff;
+	background-color: #0000005c;
+	border-radius: 2px;
+	height:inherit;
+}
+
+.navbar .navbar-collapse .navbar-right li a a:hover {
+	background-color: transparent;
+}
+
+/* Home Carousel CSS - Start */
+
+.container .row .col-md-12 .carousel {
+	border : 5px solid #97979769;
+	border-radius : 2px;
+}
+.container .row .col-md-12 .carousel .carousel-inner .item .carousel-caption h3 {
+	color : #000000;
+}
+
+.container .row .col-md-12 .carousel .carousel-inner .item .carousel-caption p {
+	color : #000000;
+}
+
+.container .row .col-md-12 .carousel .carousel-indicators li.active {
+	background-color: #00000075;
+}
+
+.container .row .col-md-12 .carousel .carousel-indicators li {
+	border: 1px solid #00000075;
+}
+/* Home Carousel CSS - End */
